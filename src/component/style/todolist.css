@@ -1,0 +1,78 @@
+.todolist-container{
+    margin-top: 50px;
+    max-width: 700px;
+    max-height: 350px;
+    /* border: 1px solid red; */
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.todolist-container::-webkit-scrollbar {
+    width: 10px;
+}
+  
+  /* Track */
+.todolist-container::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    border: 1px solid black;
+    border-radius: 5px;
+}
+   
+  /* Handle */
+.todolist-container::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 5px;
+}
+  
+  /* Handle on hover */
+.todolist-container::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+.todolist-box{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    width: 686px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0px;
+    margin-bottom: 10px;
+    box-shadow: 3px 3px 5px black;
+    font-size: 20px;
+}
+
+
+
+.todolist-box>strong{
+    text-align: start;
+    margin-top: 0px;
+}
+
+.todolist-box button{
+    background-color: rgb(51, 189, 51);
+    border: 0px;
+    margin-right: 10px;
+    border-radius: 3px;
+}
+
+.todolist-box button:nth-child(1):hover{
+    background-color: rgb(6, 146, 6);;
+}
+
+.todolist-box button:nth-child(2){
+    background-color: red;
+}
+
+.todolist-box button:nth-child(2):hover{
+    background-color: rgb(185, 8, 8);
+}
+
+.todolist-box button:nth-child(3){
+    background-color: lightskyblue;
+}
+
+.todolist-box button:nth-child(3):hover{
+    background-color: rgb(70, 142, 187);
+}

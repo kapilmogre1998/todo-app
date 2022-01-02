@@ -1,0 +1,30 @@
+.input-todo{
+    width: 700px;
+    margin: auto;
+}
+
+.input-todo input[type="text"]{
+    width: 590px;
+    padding: 15px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: 1px solid black;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    background-color: rgba(244, 247, 183, 0)
+}
+
+
+.input-todo input[type="button"]{
+    background-color: rgb(129, 207, 233);
+    border: 0px;
+    padding: 15px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 1px solid black;
+    border-left: 0px;
+}
+
+.input-todo input[type="button"]:hover{
+    background-color: rgb(44, 165, 206);
+}

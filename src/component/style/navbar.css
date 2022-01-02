@@ -1,0 +1,11 @@
+.navbar-container{
+    background-color: rgb(69, 228, 167);
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+
+.link-tag {
+    font-weight: bold;
+    margin-top: 13px;
+}

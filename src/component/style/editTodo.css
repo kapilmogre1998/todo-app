@@ -1,0 +1,26 @@
+.edit-todo-container{
+    text-align: center;
+    margin: 50px auto;
+}
+
+.edit-todo-container textarea{
+    width: 450px;
+    height: 200px;
+    font-size: 30px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 12px 20px;
+}
+
+.edit-todo-container button{
+    background-color: initial;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-left: 5px ;
+}
+
+.edit-todo-container button:hover{
+    background-color: rgba(236, 236, 183, 0.589)
+}
+
