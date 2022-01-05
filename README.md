@@ -9,4 +9,4 @@ Todo app to create a to-do list.
 1. React
 2. Redux
 
-#### 👉 [ Click here to see](https://nervous-beaver-41c90c.netlify.app/)
+#### 👉 [ Click here to see](https://silly-kilby-26eff7.netlify.app/todo-app)
