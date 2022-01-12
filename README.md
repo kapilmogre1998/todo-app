@@ -1,5 +1,5 @@
 ## Todo App
-Todo app to create a to-do list.
+A Web application to create a to-do list.
 
 ### Features:
 1. Private Route
